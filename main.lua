@@ -156,7 +156,7 @@ if script_key and script_key ~= "" and script_key ~= "your_key" then
        api.script_id = url
        local status = api.check_key(script_key)
 
-    if (status.code == "KEY_INCORRECT") then
+    if (status.code == "KEY_VALID") then
         showNotification("Key is valid")
         isLoad = true
         saveKeyToFile(script_key)
