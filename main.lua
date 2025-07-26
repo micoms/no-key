@@ -23,7 +23,7 @@ local lootlabs = "https://ads.luarmor.net/get_key?for=Lootlabs_No_Lag-WAKXwZFYPy
 local linkvertise = "https://ads.luarmor.net/get_key?for=Linkvertise_No_Lag-mSdMfyEDdcbV"
 local rinku = "https://ads.luarmor.net/get_key?for=Linkvertise_No_Lag_2-xgJOzYBvECEc"
 
-isLoad = false
+isLoad = true
 local keyFilePath = "NoLagKey.txt"
 local colors = {
     background = Color3.fromRGB(20, 20, 25),
